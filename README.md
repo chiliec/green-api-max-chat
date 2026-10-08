@@ -11,6 +11,14 @@
 3. Написать сообщение: оно отправляется через [`SendMessage`](https://green-api.com/v3/docs/api/sending/SendMessage/).
 4. Ответ собеседника приходит через [HTTP API](https://green-api.com/v3/docs/api/receiving/technology-http-api/) (`receiveNotification` → `deleteNotification`) и появляется в чате. Сообщение от нового собеседника создаёт чат автоматически.
 
+## Скриншоты
+
+Сняты с https://chiliec.github.io/green-api-max-chat/ в headless Chrome с замоканным API (см. «Статус проверки»): номер, имя собеседника и ответ — тестовые данные.
+
+| Вход | Новый чат | Переписка |
+| --- | --- | --- |
+| ![Вход](docs/screenshots/1-login.png) | ![Новый чат](docs/screenshots/2-new-chat.png) | ![Переписка](docs/screenshots/3-thread.png) |
+
 ## Локальный запуск
 
 Нужен Node.js 20+.
